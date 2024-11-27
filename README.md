@@ -1,4 +1,4 @@
-# Vapi webhook and Moesif API integration
+# Wavix webhook API integration
 
 ## Install dependencies
 
