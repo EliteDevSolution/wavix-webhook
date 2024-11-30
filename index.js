@@ -44,7 +44,7 @@ app.post('/webhook', async (req, res) => {
               "Origen": from,
           };
 
-          console.log('Wavix Call Webhook Received:', postData);
+          console.log('Processing Webhook Received for Third Party API:', postData);
           const myHeaders = new Headers();
           myHeaders.append("Content-Type", "application/json");
 
