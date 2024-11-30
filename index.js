@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/webhook', async (req, res) => {
+  console.log('Wavix Call Webhook Received:', req.body);
   const { uuid, disposition, direction, answered_by, destination, from, to } = req.body;
   const status = disposition || "";
   let amd_type = answered_by || "unknown";
